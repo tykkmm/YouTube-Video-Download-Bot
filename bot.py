@@ -17,7 +17,7 @@ app = Client("my_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 @app.on_message(filters.command("start"))
 def start(client, message):
     user = message.from_user
-    message.reply_text(f"Hello, @{user.username}!\n\nSend me the YouTube link of the video you want to upload.")
+    message.reply_text(f"Hello, @{user.username}!\n\nSend me the YouTube link of the video you want to upload...Bot Owner @sccwaleyarr ")
 
 # Help command handler
 @app.on_message(filters.command("help"))
@@ -39,7 +39,7 @@ async def process_youtube_link(client, message):
     youtube_link = message.text
     try:
         # Downloading text message
-        downloading_msg = await message.reply_text("Downloading video...")
+        downloading_msg = await message.reply_text("Downloading video🚦 @sccwaleyarr ...")
 
         # Download the YouTube video
         yt = YouTube(youtube_link)
