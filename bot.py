@@ -29,7 +29,7 @@ To upload a YouTube video, simply send me the YouTube link.
     
 Enjoy using the bot!
 
-   ©️ Channel : @NT_BOT_CHANNEL
+   ©️ Channel : @rajcourse
     """
     message.reply_text(help_text)
 
@@ -58,7 +58,7 @@ async def process_youtube_link(client, message):
         await uploading_msg.delete()
 
         # Send successful upload message
-        await message.reply_text("\n\nOWNER : @LISA_FAN_LK 💕\n\nSUCCESSFULLY UPLOADED!")
+        await message.reply_text("\n\nOWNER : @rajcourse 🥀\n\nSUCCESSFULLY UPLOADED!")
 
     except Exception as e:
         error_text = 'Error: Failed to process the YouTube link. Please make sure the link is valid and try again.'
