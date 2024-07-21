@@ -5,10 +5,6 @@ class Config(object):
 
     #####
 
-    ANILIST_CLIENT = getenv("ANILIST_CLIENT", "8679")
-  
-    ANILIST_SECRET = getenv("ANILIST_SECRET", "NeCEq9A1hVnjsjZlTZyNvqK11krQ4HtSliaM7rTN")
-  
     API_ID = getenv("API_ID",
 "29426486")
    
